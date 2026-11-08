@@ -1,0 +1,46 @@
+# Реестр характеристик. Новая характеристика = новый блок здесь, код менять не нужно:
+# оркестратор подхватит её в промпт, поиск и объяснения заработают автоматически.
+# kind: computed (считаем по геоданным) | hotelier (спрашиваем отельера) | open_data (из открытых API)
+features:
+  sunset_view:
+    title: Вид на закат
+    description: Виден ли закат из окон, с какого этажа и в какие месяцы
+    kind: computed
+    tool: visibility
+    ttl_days: 180
+  sea_view:
+    title: Вид на море
+    description: Какую долю сектора обзора из окон занимает море, и с какого этажа
+    kind: computed
+    tool: visibility
+    ttl_days: 180
+  quiet:
+    title: Тишина
+    description: Уровень шума с разных сторон здания (дороги, бары, железная дорога)
+    kind: computed
+    tool: noise
+    ttl_days: 90
+  pets_allowed:
+    title: Можно с питомцем
+    description: Каких животных пускают, до какого веса, сколько стоит
+    kind: hotelier
+    ttl_days: 365
+    question: "Принимаете ли вы гостей с питомцами? Какие животные, до какого веса, какая доплата?"
+  walk_access:
+    title: Пешая доступность
+    description: Время пешком до пляжа, магазинов, остановок, станции с учётом рельефа
+    kind: computed
+    tool: walking
+    ttl_days: 90
+  night_amenities:
+    title: Что работает ночью
+    description: Круглосуточные аптеки, магазины и кафе рядом
+    kind: computed
+    tool: poi
+    ttl_days: 60
+  kids_infrastructure:
+    title: Для семей с детьми
+    description: Детские площадки, пешеходные улицы, детская медицина рядом
+    kind: computed
+    tool: poi
+    ttl_days: 90

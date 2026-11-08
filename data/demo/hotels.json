@@ -1,0 +1,3017 @@
+[
+ {
+  "hotel_id": "w7",
+  "name": "У вокзала",
+  "lat": 43.42711454641845,
+  "lon": 39.950933628107485,
+  "levels": 7,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 6,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 1
+     },
+     "запад": {
+      "1": 1,
+      "2": null,
+      "3": 1,
+      "4": 1,
+      "5": 5,
+      "6": 6,
+      "7": 6,
+      "8": 5,
+      "9": 1,
+      "10": 5,
+      "11": 1,
+      "12": 1
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн); с 6-го этажа (июл); юг: с 1-го этажа (дек); запад: с 1-го этажа (янв, мар–апр, сен, ноя–дек); с 5-го этажа (май, авг, окт); с 6-го этажа (июн–июл)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 1.0
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 7,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.06,
+      "6": 0.07,
+      "7": 0.07
+     },
+     "восток": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.04,
+      "6": 0.04,
+      "7": 0.04
+     },
+     "запад": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.36,
+      "6": 0.36,
+      "7": 0.37
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "запад: с 5-го этажа (до 37% обзора)",
+     "probe_floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 7,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 57.5,
+       "night": 53.5,
+       "class": "шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "4": {
+       "day": 57.5,
+       "night": 53.5,
+       "class": "шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "7": {
+       "day": 57.5,
+       "night": 53.5,
+       "class": "шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 61.3,
+       "night": 57.3,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "4": {
+       "day": 61.3,
+       "night": 57.3,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "7": {
+       "day": 61.3,
+       "night": 57.3,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 57.5,
+       "night": 53.5,
+       "class": "шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "4": {
+       "day": 57.5,
+       "night": 53.5,
+       "class": "шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "7": {
+       "day": 57.5,
+       "night": 53.5,
+       "class": "шумно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 48.3,
+       "night": 43.9,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "4": {
+       "day": 48.3,
+       "night": 43.9,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "7": {
+       "day": 48.3,
+       "night": 43.9,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      }
+     }
+    },
+    "confidence": 0.0,
+    "meta": {
+     "summary": "тише всего: запад, 1-й этаж (43.9 дБ ночью, умеренно); шумнее всего: восток, 7-й этаж (57.3 дБ, главный источник: Железная дорога)",
+     "probe_floors": [
+      1,
+      4,
+      7
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 7,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 30.6,
+      "distance_m": 2521,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "bus_stop": {
+      "minutes": 12.8,
+      "distance_m": 1021,
+      "ascent_m": 15.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "station": {
+      "minutes": 5.0,
+      "distance_m": 321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "пляж — 31 мин (2521 м); остановка — 13 мин (1021 м, подъём 15 м); ж/д станция — 5 мин (321 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 7,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 25.3,
+      "distance_m": 2121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "grocery": {
+      "minutes": 2.3,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "food": {
+      "minutes": 28.8,
+      "distance_m": 2321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "night_open_within_500m": 1,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "круглосуточная аптека — 25 мин (2121 м); ночной магазин — 2 мин (121 м); кафе ночью — 29 мин (2321 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 7,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 11.0,
+      "distance_m": 921,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "playgrounds_within_300m": 0,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 11.0,
+      "distance_m": 921,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "детская площадка — 11 мин (921 м); детская медицина — 11 мин (921 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 7,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w1",
+  "name": "Морской бриз",
+  "lat": 43.42711454641845,
+  "lon": 39.921227502358285,
+  "levels": 6,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 1
+     },
+     "запад": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн–июл); юг: с 1-го этажа (дек); запад: с 1-го этажа (янв–дек)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 1.0
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.38,
+      "2": 0.45,
+      "3": 0.45,
+      "4": 0.46,
+      "5": 0.46,
+      "6": 0.47
+     },
+     "восток": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0
+     },
+     "юг": {
+      "1": 0.36,
+      "2": 0.44,
+      "3": 0.45,
+      "4": 0.45,
+      "5": 0.45,
+      "6": 0.46
+     },
+     "запад": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "север: с 1-го этажа (до 47% обзора); юг: с 1-го этажа (до 46% обзора); запад: с 1-го этажа (до 100% обзора)",
+     "probe_floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 44.1,
+       "night": 36.9,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "3": {
+       "day": 44.1,
+       "night": 36.9,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "6": {
+       "day": 44.1,
+       "night": 36.9,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 42.5,
+       "night": 35.6,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "3": {
+       "day": 42.5,
+       "night": 35.6,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "6": {
+       "day": 42.5,
+       "night": 35.6,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 33.6,
+       "night": 30.8,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "3": {
+       "day": 33.6,
+       "night": 30.8,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "6": {
+       "day": 33.6,
+       "night": 30.8,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 38.7,
+       "night": 33.0,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "3": {
+       "day": 38.7,
+       "night": 33.0,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "6": {
+       "day": 38.7,
+       "night": 33.0,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      }
+     }
+    },
+    "confidence": 0.52,
+    "meta": {
+     "summary": "тише всего: юг, 1-й этаж (30.8 дБ ночью, тихо); шумнее всего: север, 6-й этаж (36.9 дБ, главный источник: ул. Приморская)",
+     "probe_floors": [
+      1,
+      3,
+      6
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 2.0,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "bus_stop": {
+      "minutes": 8.6,
+      "distance_m": 721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "station": {
+      "minutes": 33.6,
+      "distance_m": 2721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "пляж — 2 мин (121 м); остановка — 9 мин (721 м); ж/д станция — 34 мин (2721 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 15.7,
+      "distance_m": 1321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "grocery": {
+      "minutes": 18.1,
+      "distance_m": 1521,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "food": {
+      "minutes": 16.9,
+      "distance_m": 1321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "night_open_within_500m": 0,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "круглосуточная аптека — 16 мин (1321 м); ночной магазин — 18 мин (1521 м); кафе ночью — 17 мин (1321 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 27.7,
+      "distance_m": 2321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "playgrounds_within_300m": 0,
+     "pedestrian_streets_m_300": 600,
+     "kids_medical": {
+      "minutes": 30.0,
+      "distance_m": 2521,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "детская площадка — 28 мин (2321 м); детская медицина — 30 мин (2521 м); пешеходных улиц в 300 м: 600 м",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w4",
+  "name": "Панорама",
+  "lat": 43.437906405689475,
+  "lon": 39.937318320472436,
+  "levels": 14,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 5
+     },
+     "запад": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн–июл); юг: с 5-го этажа (дек); запад: с 1-го этажа (май–июл); с 7-го этажа (янв–апр, авг–дек)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 1.0
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 14,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.0,
+      "4": 0.15,
+      "6": 0.18,
+      "9": 0.2,
+      "11": 0.21,
+      "14": 0.21
+     },
+     "восток": {
+      "1": 0.0,
+      "4": 0.0,
+      "6": 0.0,
+      "9": 0.0,
+      "11": 0.0,
+      "14": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "4": 0.2,
+      "6": 0.22,
+      "9": 0.27,
+      "11": 0.27,
+      "14": 0.32
+     },
+     "запад": {
+      "1": 0.0,
+      "4": 0.36,
+      "6": 0.38,
+      "9": 0.83,
+      "11": 0.94,
+      "14": 0.97
+     }
+    },
+    "confidence": 0.98,
+    "meta": {
+     "summary": "север: с 11-го этажа (до 21% обзора); юг: с 6-го этажа (до 32% обзора); запад: с 4-го этажа (до 97% обзора)",
+     "probe_floors": [
+      1,
+      4,
+      6,
+      9,
+      11,
+      14
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 14,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "7": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "14": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "7": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "14": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "7": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "14": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 30.5,
+       "night": 30.1,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "7": {
+       "day": 32.8,
+       "night": 30.6,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "14": {
+       "day": 39.5,
+       "night": 33.5,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      }
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "тише всего: восток, 1-й этаж (30.0 дБ ночью, тихо); шумнее всего: запад, 14-й этаж (33.5 дБ, главный источник: Курортный проспект)",
+     "probe_floors": [
+      1,
+      7,
+      14
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 14,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 17.5,
+      "distance_m": 1421,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "bus_stop": {
+      "minutes": 21.7,
+      "distance_m": 1821,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "station": {
+      "minutes": 30.0,
+      "distance_m": 2421,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "пляж — 18 мин (1421 м); остановка — 22 мин (1821 м); ж/д станция — 30 мин (2421 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 14,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 14.5,
+      "distance_m": 1221,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "grocery": {
+      "minutes": 12.2,
+      "distance_m": 1021,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "food": {
+      "minutes": 15.7,
+      "distance_m": 1221,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "night_open_within_500m": 0,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "круглосуточная аптека — 14 мин (1221 м); ночной магазин — 12 мин (1021 м); кафе ночью — 16 мин (1221 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 14,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 16.9,
+      "distance_m": 1421,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "playgrounds_within_300m": 0,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 16.9,
+      "distance_m": 1421,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "детская площадка — 17 мин (1421 м); детская медицина — 17 мин (1421 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 14,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w5",
+  "name": "Ночной город",
+  "lat": 43.43251047605396,
+  "lon": 39.93112954427468,
+  "levels": 5,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 5,
+      "7": 5,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 1
+     },
+     "запад": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1
+     }
+    },
+    "confidence": 0.93,
+    "meta": {
+     "summary": "север: с 5-го этажа (июн–июл); юг: с 1-го этажа (дек); запад: с 1-го этажа (янв–мар, сен–дек)",
+     "confidence_by_facade": {
+      "север": 0.92,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 0.79
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 5,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.0,
+      "2": 0.06,
+      "3": 0.11,
+      "4": 0.14,
+      "5": 0.15
+     },
+     "восток": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "2": 0.21,
+      "3": 0.26,
+      "4": 0.28,
+      "5": 0.3
+     },
+     "запад": {
+      "1": 0.0,
+      "2": 0.55,
+      "3": 0.61,
+      "4": 0.61,
+      "5": 0.61
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "юг: с 2-го этажа (до 30% обзора); запад: с 2-го этажа (до 61% обзора)",
+     "probe_floors": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 5,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 62.6,
+       "night": 61.6,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "amenity:nightclub",
+        "name": "Клуб «Волна»"
+       }
+      },
+      "3": {
+       "day": 62.6,
+       "night": 61.6,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "amenity:nightclub",
+        "name": "Клуб «Волна»"
+       }
+      },
+      "5": {
+       "day": 62.6,
+       "night": 61.6,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "amenity:nightclub",
+        "name": "Клуб «Волна»"
+       }
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 55.2,
+       "night": 51.9,
+       "class": "шумно",
+       "top_source": {
+        "cls": "amenity:bar",
+        "name": "Бар «Причал»"
+       }
+      },
+      "3": {
+       "day": 55.2,
+       "night": 51.9,
+       "class": "шумно",
+       "top_source": {
+        "cls": "amenity:bar",
+        "name": "Бар «Причал»"
+       }
+      },
+      "5": {
+       "day": 55.2,
+       "night": 51.9,
+       "class": "шумно",
+       "top_source": {
+        "cls": "amenity:bar",
+        "name": "Бар «Причал»"
+       }
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 59.6,
+       "night": 54.3,
+       "class": "шумно",
+       "top_source": {
+        "cls": "amenity:bar",
+        "name": "Бар «Причал»"
+       }
+      },
+      "3": {
+       "day": 59.6,
+       "night": 54.3,
+       "class": "шумно",
+       "top_source": {
+        "cls": "amenity:bar",
+        "name": "Бар «Причал»"
+       }
+      },
+      "5": {
+       "day": 59.6,
+       "night": 54.3,
+       "class": "шумно",
+       "top_source": {
+        "cls": "amenity:bar",
+        "name": "Бар «Причал»"
+       }
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 64.6,
+       "night": 62.9,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "amenity:nightclub",
+        "name": "Клуб «Волна»"
+       }
+      },
+      "3": {
+       "day": 64.6,
+       "night": 62.9,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "amenity:nightclub",
+        "name": "Клуб «Волна»"
+       }
+      },
+      "5": {
+       "day": 64.6,
+       "night": 62.9,
+       "class": "очень шумно",
+       "top_source": {
+        "cls": "amenity:nightclub",
+        "name": "Клуб «Волна»"
+       }
+      }
+     }
+    },
+    "confidence": 0.35,
+    "meta": {
+     "summary": "тише всего: восток, 1-й этаж (51.9 дБ ночью, шумно); шумнее всего: запад, 5-й этаж (62.9 дБ, главный источник: Клуб «Волна»)",
+     "probe_floors": [
+      1,
+      3,
+      5
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 5,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 11.6,
+      "distance_m": 921,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "bus_stop": {
+      "minutes": 8.6,
+      "distance_m": 721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "station": {
+      "minutes": 28.8,
+      "distance_m": 2321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "пляж — 12 мин (921 м); остановка — 9 мин (721 м); ж/д станция — 29 мин (2321 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 5,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 1.4,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "grocery": {
+      "minutes": 1.4,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "food": {
+      "minutes": 2.6,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "night_open_within_500m": 3,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "круглосуточная аптека — 1 мин (121 м); ночной магазин — 1 мин (121 м); кафе ночью — 3 мин (121 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 5,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 15.7,
+      "distance_m": 1321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "playgrounds_within_300m": 0,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 15.7,
+      "distance_m": 1321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "детская площадка — 16 мин (1321 м); детская медицина — 16 мин (1321 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 5,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w2",
+  "name": "Гранд Каскад",
+  "lat": 43.42261793838885,
+  "lon": 39.93298617713401,
+  "levels": 12,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 7
+     },
+     "запад": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 1,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7
+     }
+    },
+    "confidence": 0.92,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн–июл); юг: с 7-го этажа (дек); запад: с 1-го этажа (июн); с 7-го этажа (янв–май, июл–дек)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 0.67
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 12,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.0,
+      "3": 0.22,
+      "5": 0.22,
+      "8": 0.22,
+      "10": 0.35,
+      "12": 0.36
+     },
+     "восток": {
+      "1": 0.0,
+      "3": 0.0,
+      "5": 0.0,
+      "8": 0.0,
+      "10": 0.0,
+      "12": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "3": 0.17,
+      "5": 0.21,
+      "8": 0.23,
+      "10": 0.26,
+      "12": 0.27
+     },
+     "запад": {
+      "1": 0.0,
+      "3": 0.36,
+      "5": 0.41,
+      "8": 0.43,
+      "10": 0.98,
+      "12": 1.0
+     }
+    },
+    "confidence": 0.94,
+    "meta": {
+     "summary": "север: с 3-го этажа (до 36% обзора); юг: с 5-го этажа (до 27% обзора); запад: с 3-го этажа (до 100% обзора)",
+     "probe_floors": [
+      1,
+      3,
+      5,
+      8,
+      10,
+      12
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 12,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 51.6,
+       "night": 43.8,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "7": {
+       "day": 51.6,
+       "night": 43.8,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "12": {
+       "day": 51.6,
+       "night": 43.8,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 42.2,
+       "night": 35.4,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "7": {
+       "day": 42.2,
+       "night": 35.4,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "12": {
+       "day": 42.2,
+       "night": 35.4,
+       "class": "тихо",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 51.5,
+       "night": 43.7,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "7": {
+       "day": 51.5,
+       "night": 43.7,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "12": {
+       "day": 51.5,
+       "night": 43.7,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 54.7,
+       "night": 46.8,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "7": {
+       "day": 54.7,
+       "night": 46.8,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      },
+      "12": {
+       "day": 54.7,
+       "night": 46.8,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:primary",
+        "name": "Курортный проспект"
+       }
+      }
+     }
+    },
+    "confidence": 0.17,
+    "meta": {
+     "summary": "тише всего: восток, 1-й этаж (35.4 дБ ночью, тихо); шумнее всего: запад, 7-й этаж (46.8 дБ, главный источник: Курортный проспект)",
+     "probe_floors": [
+      1,
+      7,
+      12
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 12,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 14.5,
+      "distance_m": 1166,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     },
+     "bus_stop": {
+      "minutes": 9.1,
+      "distance_m": 766,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     },
+     "station": {
+      "minutes": 29.4,
+      "distance_m": 2366,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "пляж — 14 мин (1166 м); остановка — 9 мин (766 м); ж/д станция — 29 мин (2366 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 12,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 13.9,
+      "distance_m": 1166,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     },
+     "grocery": {
+      "minutes": 13.9,
+      "distance_m": 1166,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     },
+     "food": {
+      "minutes": 17.5,
+      "distance_m": 1366,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     },
+     "night_open_within_500m": 0,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "круглосуточная аптека — 14 мин (1166 м); ночной магазин — 14 мин (1166 м); кафе ночью — 18 мин (1366 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 12,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 11.5,
+      "distance_m": 966,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     },
+     "playgrounds_within_300m": 0,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 25.8,
+      "distance_m": 2166,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 66
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "детская площадка — 12 мин (966 м); детская медицина — 26 мин (2166 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 12,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w3",
+  "name": "Тихий дворик",
+  "lat": 43.4199199735711,
+  "lon": 39.94103158619109,
+  "levels": 4,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 1
+     },
+     "запад": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн–июл); юг: с 1-го этажа (дек); запад: с 1-го этажа (июн–июл)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 1.0
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 4,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.13,
+      "4": 0.14
+     },
+     "восток": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.03,
+      "4": 0.07
+     },
+     "запад": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.15,
+      "4": 0.16
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "вид на море не выявлен",
+     "probe_floors": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 4,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "4": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "4": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "4": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "4": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "тише всего: восток, 1-й этаж (30.0 дБ ночью, тихо); шумнее всего: юг, 4-й этаж (30.0 дБ)",
+     "probe_floors": [
+      1,
+      3,
+      4
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 4,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 21.1,
+      "distance_m": 1721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "bus_stop": {
+      "minutes": 3.8,
+      "distance_m": 321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "station": {
+      "minutes": 24.1,
+      "distance_m": 1921,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "пляж — 21 мин (1721 м); остановка — 4 мин (321 м); ж/д станция — 24 мин (1921 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 4,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 25.3,
+      "distance_m": 2121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "grocery": {
+      "minutes": 21.3,
+      "distance_m": 1721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "food": {
+      "minutes": 28.8,
+      "distance_m": 2321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "night_open_within_500m": 0,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "круглосуточная аптека — 25 мин (2121 м); ночной магазин — 21 мин (1721 м); кафе ночью — 29 мин (2321 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 4,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 1.4,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "playgrounds_within_300m": 1,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 20.5,
+      "distance_m": 1721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "детская площадка — 1 мин (121 м); детская медицина — 20 мин (1721 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 4,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w6",
+  "name": "Семейный",
+  "lat": 43.42981251123621,
+  "lon": 39.94474485190973,
+  "levels": 6,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 5
+     },
+     "запад": {
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 1,
+      "7": 1,
+      "8": 6,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6
+     }
+    },
+    "confidence": 0.89,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн–июл); юг: с 5-го этажа (дек); запад: с 1-го этажа (июн–июл); с 6-го этажа (янв–май, авг–дек)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 0.96,
+      "запад": 0.58
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.02,
+      "4": 0.11,
+      "5": 0.11,
+      "6": 0.11
+     },
+     "восток": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.05,
+      "5": 0.07,
+      "6": 0.08
+     },
+     "запад": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.05,
+      "4": 0.17,
+      "5": 0.19,
+      "6": 0.21
+     }
+    },
+    "confidence": 0.98,
+    "meta": {
+     "summary": "запад: с 6-го этажа (до 21% обзора)",
+     "probe_floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 52.9,
+       "night": 45.4,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "3": {
+       "day": 52.9,
+       "night": 45.4,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "6": {
+       "day": 52.9,
+       "night": 45.4,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 50.7,
+       "night": 44.5,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "3": {
+       "day": 50.7,
+       "night": 44.5,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "6": {
+       "day": 50.7,
+       "night": 44.5,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 43.5,
+       "night": 38.7,
+       "class": "тихо",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "3": {
+       "day": 43.5,
+       "night": 38.7,
+       "class": "тихо",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      },
+      "6": {
+       "day": 43.5,
+       "night": 38.7,
+       "class": "тихо",
+       "top_source": {
+        "cls": "railway:rail",
+        "name": "Железная дорога"
+       }
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 49.2,
+       "night": 41.4,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "3": {
+       "day": 49.2,
+       "night": 41.4,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      },
+      "6": {
+       "day": 49.2,
+       "night": 41.5,
+       "class": "умеренно",
+       "top_source": {
+        "cls": "highway:secondary",
+        "name": "ул. Приморская"
+       }
+      }
+     }
+    },
+    "confidence": 0.35,
+    "meta": {
+     "summary": "тише всего: юг, 1-й этаж (38.7 дБ ночью, тихо); шумнее всего: север, 6-й этаж (45.4 дБ, главный источник: ул. Приморская)",
+     "probe_floors": [
+      1,
+      3,
+      6
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 24.7,
+      "distance_m": 2021,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "bus_stop": {
+      "minutes": 13.4,
+      "distance_m": 1121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "station": {
+      "minutes": 12.2,
+      "distance_m": 921,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "пляж — 25 мин (2021 м); остановка — 13 мин (1121 м); ж/д станция — 12 мин (921 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 15.7,
+      "distance_m": 1321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "grocery": {
+      "minutes": 9.4,
+      "distance_m": 721,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "food": {
+      "minutes": 19.3,
+      "distance_m": 1521,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "night_open_within_500m": 0,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "круглосуточная аптека — 16 мин (1321 м); ночной магазин — 9 мин (721 м); кафе ночью — 19 мин (1521 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 1.4,
+      "distance_m": 121,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     },
+     "playgrounds_within_300m": 1,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 3.8,
+      "distance_m": 321,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 21
+     }
+    },
+    "confidence": 0.9,
+    "meta": {
+     "summary": "детская площадка — 1 мин (121 м); детская медицина — 4 мин (321 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 6,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ },
+ {
+  "hotel_id": "w8",
+  "name": "Горный приют",
+  "lat": 43.428913189630286,
+  "lon": 39.96207342526344,
+  "levels": 3,
+  "tags": {
+   "tourism": "hotel"
+  },
+  "features": {
+   "sunset_view": {
+    "value": {
+     "север": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": 1,
+      "7": 1,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "восток": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null
+     },
+     "юг": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": 2
+     },
+     "запад": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": null,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2
+     }
+    },
+    "confidence": 0.98,
+    "meta": {
+     "summary": "север: с 1-го этажа (июн–июл); юг: с 2-го этажа (дек); запад: с 2-го этажа (янв–апр, июн–дек)",
+     "confidence_by_facade": {
+      "север": 1.0,
+      "восток": 1.0,
+      "юг": 1.0,
+      "запад": 0.92
+     },
+     "method": "DEM+buildings ray casting, refraction k=0.13, sun_clear=0.25°",
+     "height_scales_tested": [
+      0.8,
+      1.2
+     ],
+     "own_height_source": "levels",
+     "levels": 3,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "sea_view": {
+    "value": {
+     "север": {
+      "1": 0.08,
+      "2": 0.08,
+      "3": 0.09
+     },
+     "восток": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "юг": {
+      "1": 0.0,
+      "2": 0.06,
+      "3": 0.06
+     },
+     "запад": {
+      "1": 0.0,
+      "2": 0.35,
+      "3": 0.42
+     }
+    },
+    "confidence": 1.0,
+    "meta": {
+     "summary": "запад: с 2-го этажа (до 42% обзора)",
+     "probe_floors": [
+      1,
+      2,
+      3
+     ],
+     "min_fraction": 0.2,
+     "method": "ray casting to water mask, DEM+buildings, refraction k=0.13",
+     "own_height_source": "levels",
+     "levels": 3,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] Copernicus GLO-30 DSM + OSM здания, расчёт по лучам обзора",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 365
+   },
+   "quiet": {
+    "value": {
+     "север": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "2": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "восток": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "2": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "юг": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "2": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     },
+     "запад": {
+      "1": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "2": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      },
+      "3": {
+       "day": 30.0,
+       "night": 30.0,
+       "class": "тихо",
+       "top_source": null
+      }
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "тише всего: восток, 1-й этаж (30.0 дБ ночью, тихо); шумнее всего: юг, 3-й этаж (30.0 дБ)",
+     "probe_floors": [
+      1,
+      2,
+      3
+     ],
+     "method": "line/point sources, Maekawa barrier loss on DEM+buildings, wall penalty 12 dB",
+     "calibration": "none: типовые опорные уровни по классу дороги (эвристика)",
+     "own_height_source": "levels",
+     "levels": 3,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM дороги/ж/д/ВПП/заведения + здания и рельеф, инженерная модель шума (не откалибрована)",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 180
+   },
+   "walk_access": {
+    "value": {
+     "beach": {
+      "minutes": 41.2,
+      "distance_m": 3486,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     },
+     "bus_stop": {
+      "minutes": 3.0,
+      "distance_m": 286,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     },
+     "station": {
+      "minutes": 12.0,
+      "distance_m": 986,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "пляж — 41 мин (3486 м); остановка — 3 мин (286 м); ж/д станция — 12 мин (986 м)",
+     "method": "Dijkstra по пешей сети OSM, функция Тоблера (уклон из DEM)",
+     "own_height_source": "levels",
+     "levels": 3,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM пешая сеть + Copernicus DEM, функция ходьбы Тоблера",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   },
+   "night_amenities": {
+    "value": {
+     "pharmacy": {
+      "minutes": 32.2,
+      "distance_m": 2786,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     },
+     "grocery": {
+      "minutes": 14.0,
+      "distance_m": 1186,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     },
+     "food": {
+      "minutes": 35.8,
+      "distance_m": 2986,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     },
+     "night_open_within_500m": 0,
+     "unknown_hours_share_1km": 0.0
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "круглосуточная аптека — 32 мин (2786 м); ночной магазин — 14 мин (1186 м); кафе ночью — 36 мин (2986 м)",
+     "method": "opening_hours из OSM (только однозначные записи) + пеший маршрут",
+     "note": "точки без часов работы в OSM не учитываются; см. unknown_hours_share_1km",
+     "own_height_source": "levels",
+     "levels": 3,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM opening_hours + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 60
+   },
+   "kids_infrastructure": {
+    "value": {
+     "playground": {
+      "minutes": 17.9,
+      "distance_m": 1586,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     },
+     "playgrounds_within_300m": 0,
+     "pedestrian_streets_m_300": 0,
+     "kids_medical": {
+      "minutes": 17.9,
+      "distance_m": 1586,
+      "ascent_m": 0.0,
+      "busy_crossings": 0,
+      "snap_m": 86
+     }
+    },
+    "confidence": 0.7,
+    "meta": {
+     "summary": "детская площадка — 18 мин (1586 м); детская медицина — 18 мин (1586 м)",
+     "method": "OSM: leisure=playground, детские медучреждения по тегам и названию, highway=pedestrian",
+     "own_height_source": "levels",
+     "levels": 3,
+     "footprint": "osm_way"
+    },
+    "source": "[синтетическая сцена] OSM leisure=playground, детские медучреждения, highway=pedestrian + пешая сеть",
+    "fetched_at": "2026-10-28T22:57:53+00:00",
+    "ttl_days": 90
+   }
+  },
+  "city": "Сочи"
+ }
+]

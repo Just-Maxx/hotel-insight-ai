@@ -1,0 +1,27 @@
+{
+  "_about": "Эталонная разметка для СИНТЕТИЧЕСКОГО городка (scripts/build_demo_town.py). Поля с basis=analytic считаются из координат сцены независимо от конвейера; basis=design — по замыслу сцены (что и где поставлено). null = сомнительный случай, в метрику не входит. Для реальных данных замените вручную по Mapillary/спутнику.",
+  "features": {
+    "quiet":           {"basis": "design",   "rule": "есть номера с ночным шумом < 40 дБ (score >= 0.5)",
+                        "labels": {"w1": true, "w2": true, "w3": true, "w4": true, "w5": false, "w6": true, "w7": false, "w8": true}},
+    "sea_view":        {"basis": "design",   "rule": "море видно заметной долей обзора (score >= 0.5)",
+                        "labels": {"w1": true, "w2": true, "w3": false, "w4": true, "w5": true, "w6": false, "w7": false, "w8": true}},
+    "sunset_view":     {"basis": "design",   "rule": "закат виден с нижней половины этажей хотя бы 6 мес. (score >= 0.5)",
+                        "labels": {"w1": true, "w2": false, "w3": false, "w4": true, "w5": true, "w6": false, "w7": null, "w8": true}},
+    "walk_access":     {"basis": "analytic", "rule": "до пляжа <= 20 мин пешком (пляж на x=1550 м, 80 м/мин)",
+                        "labels": {"w1": true, "w2": true, "w3": false, "w4": true, "w5": true, "w6": false, "w7": false, "w8": false}},
+    "night_amenities": {"basis": "analytic", "rule": "круглосуточная аптека (2500, 3500) <= 10 мин пешком",
+                        "labels": {"w1": null, "w2": null, "w3": false, "w4": null, "w5": true, "w6": null, "w7": false, "w8": false}},
+    "kids_infrastructure": {"basis": "analytic", "rule": "детская площадка в пределах 300 м",
+                        "labels": {"w1": false, "w2": false, "w3": true, "w4": false, "w5": false, "w6": true, "w7": false, "w8": false}}
+  },
+  "queries": [
+    {"q": "Хочу тихий номер с видом на закат недалеко от моря в Сочи", "relevant": ["w1", "w4"]},
+    {"q": "Нужен вид на море и чтобы было тихо", "relevant": ["w1", "w2", "w4", "w8"]},
+    {"q": "Едем с детьми, нужна детская площадка рядом и тишина", "relevant": ["w3", "w6"]},
+    {"q": "Нужна круглосуточная аптека рядом, ночью", "relevant": ["w5"]},
+    {"q": "Еду с собакой", "relevant": ["w1", "w2", "w5"]},
+    {"q": "Хочу море в пешей доступности", "relevant": ["w1", "w5", "w2"], "note": "пляж не дальше 15 мин пешком = 1200 м при 80 м/мин (то же правило, что в разметке walk_access)"},
+    {"q": "Пляж в 10 минутах пешком", "relevant": ["w1"], "note": "10 мин = 800 м при 80 м/мин"}
+  ],
+  "expected_conflicts": [["w3", "sea_view"]]
+}

@@ -1,0 +1,236 @@
+{
+ "feature_accuracy": {
+  "quiet": {
+   "correct": 7,
+   "total": 8,
+   "accuracy": 0.88,
+   "basis": "design"
+  },
+  "sea_view": {
+   "correct": 7,
+   "total": 8,
+   "accuracy": 0.88,
+   "basis": "design"
+  },
+  "sunset_view": {
+   "correct": 7,
+   "total": 7,
+   "accuracy": 1.0,
+   "basis": "design"
+  },
+  "walk_access": {
+   "correct": 8,
+   "total": 8,
+   "accuracy": 1.0,
+   "basis": "analytic"
+  },
+  "night_amenities": {
+   "correct": 4,
+   "total": 4,
+   "accuracy": 1.0,
+   "basis": "analytic"
+  },
+  "kids_infrastructure": {
+   "correct": 8,
+   "total": 8,
+   "accuracy": 1.0,
+   "basis": "analytic"
+  }
+ },
+ "overall_accuracy": 0.95,
+ "errors": [
+  {
+   "hotel": "w7",
+   "feature": "quiet",
+   "truth": false,
+   "pred": true
+  },
+  {
+   "hotel": "w8",
+   "feature": "sea_view",
+   "truth": true,
+   "pred": false
+  }
+ ],
+ "coverage": {
+  "pairs_with_value": 52,
+  "pairs_total": 56,
+  "share": 0.93,
+  "by_feature": {
+   "sunset_view": 8,
+   "sea_view": 8,
+   "quiet": 8,
+   "pets_allowed": 4,
+   "walk_access": 8,
+   "night_amenities": 8,
+   "kids_infrastructure": 8
+  },
+  "hotels": 8
+ },
+ "search": {
+  "queries": [
+   {
+    "query": "Хочу тихий номер с видом на закат недалеко от моря в Сочи",
+    "top3": [
+     "w1",
+     "w4",
+     "w8"
+    ],
+    "relevant": [
+     "w1",
+     "w4"
+    ],
+    "precision@2": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 0,
+    "features": [
+     "sunset_view",
+     "quiet",
+     "walk_access"
+    ]
+   },
+   {
+    "query": "Нужен вид на море и чтобы было тихо",
+    "top3": [
+     "w4",
+     "w1",
+     "w8"
+    ],
+    "relevant": [
+     "w1",
+     "w2",
+     "w4",
+     "w8"
+    ],
+    "precision@3": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 0,
+    "features": [
+     "sea_view",
+     "quiet"
+    ]
+   },
+   {
+    "query": "Едем с детьми, нужна детская площадка рядом и тишина",
+    "top3": [
+     "w3",
+     "w6",
+     "w4"
+    ],
+    "relevant": [
+     "w3",
+     "w6"
+    ],
+    "precision@2": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 0,
+    "features": [
+     "kids_infrastructure",
+     "quiet"
+    ]
+   },
+   {
+    "query": "Нужна круглосуточная аптека рядом, ночью",
+    "top3": [
+     "w5",
+     "w4",
+     "w6"
+    ],
+    "relevant": [
+     "w5"
+    ],
+    "precision@1": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 0,
+    "features": [
+     "night_amenities"
+    ]
+   },
+   {
+    "query": "Еду с собакой",
+    "top3": [
+     "w2",
+     "w5",
+     "w1"
+    ],
+    "relevant": [
+     "w1",
+     "w2",
+     "w5"
+    ],
+    "precision@3": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 4,
+    "features": [
+     "pets_allowed"
+    ]
+   },
+   {
+    "query": "Хочу море в пешей доступности",
+    "top3": [
+     "w1",
+     "w5",
+     "w2"
+    ],
+    "relevant": [
+     "w1",
+     "w2",
+     "w5"
+    ],
+    "precision@3": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 0,
+    "features": [
+     "walk_access"
+    ]
+   },
+   {
+    "query": "Пляж в 10 минутах пешком",
+    "top3": [
+     "w1",
+     "w5",
+     "w2"
+    ],
+    "relevant": [
+     "w1"
+    ],
+    "precision@1": 1.0,
+    "hit@3": true,
+    "mrr": 1.0,
+    "gaps": 0,
+    "features": [
+     "walk_access"
+    ]
+   }
+  ],
+  "hit@3": 1.0,
+  "mrr": 1.0
+ },
+ "hotelier_question_share": {
+  "gaps": 4,
+  "requested_pairs": 88,
+  "share": 0.05
+ },
+ "conflicts": {
+  "expected": [
+   [
+    "w3",
+    "sea_view"
+   ]
+  ],
+  "flagged": [
+   [
+    "w3",
+    "sea_view"
+   ]
+  ],
+  "recall": 1.0,
+  "precision": 1.0
+ }
+}
