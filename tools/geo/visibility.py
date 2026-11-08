@@ -267,7 +267,7 @@ def sea_view_feature(scene: Scene, facades: list[Facade], floors: list[int], exc
         first = next((fl for fl in probe if fr[fl] >= min_fraction), None)
         if first is not None:
             texts.append(f"{f.name}: с {first}-го этажа (до {max(fr.values()):.0%} обзора)")
-    
+
     return {
         "value": value,
         "confidence": round(float(np.mean(conf_cells)) if conf_cells else 1.0, 2),
